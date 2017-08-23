@@ -1,26 +1,22 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## Related post: [Using the In Memory Web API with Ionic 2+](https://www.ionicrun.com/using-the-in-memory-web-api-with-ionic-2/)
 
-## How to use this template
+<p align="center">
+  <img src="in-memory-web-api-demo.gif" title="Using the In Memory Web API with Ionic 2+">
+</p>
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+## Install & Run
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+# download or clone
+$ git clone https://github.com/ionicrun/in-memory-web-api-demo.git
+$ cd in-memory-web-api-demo
 
-Then, to run it, cd into `myBlank` and run:
+# install the packages
+$ npm i
 
-```bash
-$ ionic cordova platform add ios
+# serve or run
 $ ionic cordova run ios
+# or
+$ ionic cordova run android
+
 ```
-
-Substitute ios for android if not on a Mac.
-
